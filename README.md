@@ -19,6 +19,11 @@ Sonarqube is an open source platform for continuous inspection of code quality. 
 
 We are also using a PostgreSQL database [the official Docker repository](https://hub.docker.com/_/postgres/).
 
+- User: admin
+- Password: admin
+
+http://localhost:9000
+
 ## Artifactory
 
 Artifactory is a software repository manager. We are using the open source version following the instructions from [its official web](https://www.jfrog.com/confluence/display/RTF/Running+Artifactory+OSS).
@@ -28,8 +33,12 @@ When it starts, the following default admin user is created:
 - User: admin
 - Password: password
 
+http://localhost:8081
+
 ## Jenkins
 
 Jenkins is a Continuous Integration and Delivery server. We are using images from [the official Docker repository](https://hub.docker.com/_/jenkins/).
 
 When it starts the first time, an admin password is created.
+
+http://localhost:8080

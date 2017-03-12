@@ -27,7 +27,7 @@ services:
       - ${VOLUMES_PATH}/artifactory/logs:/var/opt/jfrog/artifactory/logs
       - ${VOLUMES_PATH}/artifactory/etc:/var/opt/jfrog/artifactory/etc
   jenkins:
-    image: "jenkins:2.32.1"
+    image: "jenkins:2.32.3"
     ports:
       - "8080:8080"
       - "50000:50000"
